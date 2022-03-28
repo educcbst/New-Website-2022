@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    color: black;
+}
+
+.name{
+    color: tomato;
+    text-align: center;
+}
+
+.half{
+    height: 200px;
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 2%;
+    text-align: justify;
+    float: left;
+
+}
+
+.half img{
+    width: 80%;
+}
+
+
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 10px 20px;
+    border-radius: 5px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    float: right;
+    color: white;
+
+}
+
+
+section{
+    height: 500px;
+    padding-bottom: 150px;
+    margin: 5%;
+}
+
+.experience{
+    text-align: center;
+color: tomato;
+
+}
+#half-one{
+    box-shadow: 10px 10px 40px gray;
+    height: 60%;
+    text-align: justify;
+    background-color: white;
+    border-radius: 5px;
+    padding: 15px;
+    border-left: 10px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+
+}
+
+.top{
+
+    background-image: url(images/top-banner.png);
+    background-position: bottom left;
+    background-repeat: no-repeat;
+}
+
+.mid{
+
+    background-image: url(images/top-banner.png);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+}
+
+.bottom{
+
+    background-image: url(images/top-banner.png);
+    background-position: bottom left;
+    background-repeat: no-repeat;
+}
+
+
+#third-one{
+    box-shadow: 10px 10px 40px gray;
+    height: 100%;
+    text-align: justify;
+    background-color: rgba(248, 248, 247, 0.288);
+    border-radius: 5px;
+    padding: 10px;
+    border-left: 10px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+
+}
+
+.lowest{
+    color: tomato;
+    text-align: center;
+}
+
+.lower{
+    box-shadow: 15px 15px 20px gray;
+    background-color: rgba(194, 197, 184, 0.301);
+    border-radius: 5px;
+    height: 200px;
+    width: 25%;
+    margin: 2%;
+    padding: 2%;
+    text-align: justify;
+    float: left;
+
+}
+
+footer{
+    text-align: center;
+    color: salmon;
+    font-size: medium;
+}
